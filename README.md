@@ -29,7 +29,7 @@ php artisan key:generate
 5.Jalankan Vite (untuk Tailwind)
 npm run dev
 
-
+### catatan ingat
 catatan jika buat view baru taruh  @vite('resources/css/app.css') di bawahnya meta
 dan buat branch sendri jangan pakai main jika sudah bilang ke tim agar di merge
 git checkout main
