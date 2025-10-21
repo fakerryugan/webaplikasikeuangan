@@ -9,9 +9,11 @@ git clone
 cd 
 
 ⚙️ 2. Install Composer Dependencies
+
 composer install
 
 ⚙️ 3. Install Node Dependencies
+
 npm install
 
 
@@ -28,6 +30,7 @@ Lalu generate key Laravel:
 php artisan key:generate
 
 5.Jalankan Vite (untuk Tailwind)
+
 npm run dev
 
 # catatan ingat
