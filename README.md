@@ -33,12 +33,24 @@ npm run dev
 # catatan ingat
 catatan jika buat view baru taruh  @vite('resources/css/app.css') di bawahnya meta
 dan buat branch sendri jangan pakai main jika sudah bilang ke tim agar di merge
+
 git checkout main
+
 git pull origin main
+
 git checkout -b dev-nama sendri
+
 git push -u origin dev-sendri
 
 ## Biasakan sebelum ngoding:
 
 git status
+
 git pull
+## untuk git push(upload)
+
+git add .
+
+git commit -m "Tambah fitur login"
+
+git push
