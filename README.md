@@ -28,3 +28,6 @@ php artisan key:generate
 
 5.Jalankan Vite (untuk Tailwind)
 npm run dev
+
+
+catatan jika buat view baru taruh  @vite('resources/css/app.css') di bawahnya meta
