@@ -1,11 +1,13 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+use App\Http\Controllers\ProfilController;
+Route::get('/', [ProfilController::class, 'index']);
+Route::get('/profil', [ProfilController::class, 'show'])->name('profil.show');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
