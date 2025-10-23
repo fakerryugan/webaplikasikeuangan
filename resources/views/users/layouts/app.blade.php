@@ -15,7 +15,7 @@
     </main>
 
     {{-- Include bottom navigation di luar <main> --}}
-    @include('users.layouts.bottomnav')
+   <x-bottom-navigation />
 
 </body>
 </html>

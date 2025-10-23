@@ -4,12 +4,12 @@
     <div class="min-h-screen bg-gray-100">
         <div class="max-w-[480px] mx-auto bg-white min-h-screen pb-24 relative overflow-x-hidden">
 
-            <x-green-header />
+            <x-red-header />
 
             <div class="-mt-16 flex h-full w-full flex-1 flex-col gap-4 rounded-xl px-4 sm:px-6">
                 <div class="flex w-full flex-1 flex-col gap-4 rounded-xl px-4 sm:px-6">
                     <div
-                        class="rounded-2xl bg-gradient-to-br from-[#00C94D] to-[#00A73A] p-4 text-white shadow-xl shadow-black/20">
+                        class="rounded-2xl bg-gradient-to-br from-[#F22E3A] to-[#D0152B] p-4 text-white shadow-xl shadow-black/20">
 
                         <div class="flex items-center justify-between">
                             <span class="text-sm font-medium text-white/90">Saldo Total</span>
@@ -58,14 +58,14 @@
                 <div class="flex flex-col items-center justify-center text-center p-8">
 
                     <div class="mb-6">
-                        <img src="{{ asset('images/kosong.png') }}" alt="Belum ada pemasukan"
+                        <img src="{{ asset('images/kosong1.png') }}" alt="Belum ada Pengeluaran"
                             class="w-auto h-40 mx-auto">
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-2">
-                        Belum ada pemasukan
+                        Belum ada Pengeluaran
                     </h3>
                     <p class="text-gray-500 max-w-xs">
-                        Mulai catat pemasukan Anda untuk melacak keuangan dengan lebih baik
+                        Mulai catat Pengeluaran Anda untuk melacak keuangan dengan lebih baik
                     </p>
 
                 </div>
