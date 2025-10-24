@@ -1,14 +1,17 @@
-@extends('layouts.app')
+@extends('users.layouts.app')
 
 @section('content')
-<body class="bg-gray-100">
+<div class="min-h-screen bg-gray-100">
+    <div class="max-w-[480px] mx-auto bg-white min-h-screen pb-24 relative overflow-x-hidden">
 
-    <!-- Header Hijau -->
-    <div class="bg-gradient-to-br from-green-500 to-green-700 text-white rounded-b-3xl relative">
-        <div class="p-4 flex items-center">
-            <a href="#" class="text-white text-2xl mr-3">←</a>
-            <h1 class="text-xl font-semibold">Profil</h1>
-        </div>
+    <div class="text-white px-4 py-6 rounded-b-3xl"
+     style="background: linear-gradient(to bottom right, #00C94D 50%, #00A73A 50%);">
+    <div class="flex items-center justify-between mb-6"></div>
+
+    <div>
+        <h1 class="text-lg font-bold leading-tight text-center">Profile</h1>
+    </div>
+    
         <div class="flex flex-col items-center pb-8">
             <div class="relative mt-4">
                 <img src="https://ui-avatars.com/api/?name={{ urlencode($profil['name']) }}&background=16A34A&color=fff" 
@@ -72,15 +75,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Bottom Navigation -->
-    <div class="fixed bottom-0 left-0 right-0 bg-white border-t flex justify-around items-center py-3">
-        <a href="#" class="text-gray-500 text-xl">🏠</a>
-        <a href="#" class="text-gray-500 text-xl">📊</a>
-        <a href="#" class="bg-green-600 text-white text-3xl rounded-full px-3 py-0.5 shadow-lg">＋</a>
-        <a href="#" class="text-gray-500 text-xl">📋</a>
-        <a href="#" class="text-green-600 text-xl">👤</a>
     </div>
 
 </body>

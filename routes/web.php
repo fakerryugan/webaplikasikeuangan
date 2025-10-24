@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Route;
 
 
 use App\Http\Controllers\ProfilController;
-Route::get('/', [ProfilController::class, 'index']);
 Route::get('/profil', [ProfilController::class, 'show'])->name('profil.show');
 
 
@@ -22,6 +21,7 @@ Route::get('/pemasukan', function () {
 Route::get('/pengeluaran', function () {
     return view('users.pages.pengeluaran');
 })->name('keluar');
+
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

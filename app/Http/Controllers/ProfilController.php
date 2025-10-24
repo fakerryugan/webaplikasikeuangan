@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ProfilController extends Controller
 {
-    public function index()
+    public function show()
     {
         $profil = [
             'name' => 'Tio Adi Baskoro',
@@ -15,6 +15,6 @@ class ProfilController extends Controller
         ];
 
         // kirim data profil ke welcome.blade.php
-        return view('welcome', compact('profil'));
+        return view('users/pages/profil', compact('profil'));
     }
 }
